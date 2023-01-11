@@ -1,0 +1,407 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Playfair+Display+SC:ital,wght@0,400;1,900&family=Prosto+One&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Vinyl&family=Secular+One&family=Sevillana&family=Seymour+One&family=Shadows+Into+Light&display=swap');
+#header{
+   
+    background: radial-gradient(#eae7e0, #e4c8e1);   
+     width: 100%;
+    height: 780px;
+
+}
+.container{
+    max-width: 1200px;
+    height: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* background-color: #2234d8; */
+}
+.navbar{
+    
+    /* background-color: rgb(149, 206, 15); */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 150px;
+
+}
+.logo{
+    width: 214px;
+    height: 62px;
+    /* background-color: black; */
+}
+.imglogo{
+    width: 214px;
+    height: 62px;
+    
+}
+.list{
+    height: 96px;
+    width: 800px;
+    /* border: black 1px solid; */
+    margin-left: 540px;
+    color: rgb(50, 51, 51);
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 50px;
+    
+}
+/* #lst{
+   
+     color: rgb(50, 51, 51);
+    font-size: 41px;
+   
+} */
+#imgcart{
+    /* border: #d513bf solid 2px; */
+    width: 35px;
+    height: 35px;
+}
+.contentwrite{
+    width: 46%;
+    height: 600px;
+    /* border: #e4c8e1 2px solid; */
+    float: left;
+    padding-top: 185px;
+
+}
+#btn1{
+    width: 200px;
+    height: 50px;
+    background-color:#ff523b;
+    color: white;
+    border-radius: 60px;
+    border: none;
+
+}
+#btn1:hover{
+    background-color: #401d18;
+
+}
+
+#img2{
+    height: 509px;
+    width: 600px;
+    padding-top: 65px;
+    padding-left: 48px;
+
+}
+.row{
+  
+    width: 1600px;
+    height: 600px;
+    /* background-color: black; */
+     /* display:flex; 
+    align-items: center;
+    justify-content: space-evenly; */
+}
+.afterheader{
+    height: 550px;
+    width: 316px;
+    /* border: chartreuse 2px solid;
+     */
+}
+.col1{
+    margin-left: 185px;
+    
+
+}
+.col2{
+    margin-left: 594px;
+    margin-top: -554px;
+
+}
+
+.col3{
+    margin-left: 1005px;
+    margin-top: -554px;
+
+}
+.catogery{
+    width: 316px;
+    height: 400px;
+    margin-top: -128px;
+
+}
+.catogery2{
+    width: 316px;
+    height: 400px;
+    margin-top: 76px;
+
+}
+.catogery:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.catogery2:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#navhover:hover{
+ color: rgb(223, 44, 44);
+ 
+}
+#imgcart:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.imglogo:hover{
+    box-shadow: rgba(236, 53, 148, 0.25) 0px 30px 60px -12px inset, rgba(224, 55, 159, 0.3) 0px 18px 36px -18px inset;
+}
+.featuredpdtunderline{
+   
+    color: darkslategray;
+   
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    
+}
+.featuredpdtunderline::after{
+    content: "";
+    height: 4px;
+    width: 44%;
+    background: #ea351e;
+    position:absolute ;
+    left: 44px;
+    bottom: 0px;
+    border-radius: 200px;
+    
+   
+}
+#featext{
+    color:lightslategrey;
+    padding-top: -30px;
+    padding-bottom: 10px;
+    
+  
+}
+.subhd{
+    margin-top: -70px;
+    margin-left: 44%;
+}
+.accesoriesbox{
+   position: relative;
+    width: 75%;
+    height: 600px;
+    /* background-color: aquamarine; */
+    left: 180px;
+    top: 50px;
+   
+}
+.assbox{
+   position: absolute;
+    width: 22%;
+    height: 460px;
+    top: 40px;
+    left: 20px;
+ 
+    
+
+}
+.one{
+  
+    left:860px;
+}
+.two{
+left: 581px;
+}
+.three{
+    left: 300px;
+}
+.four{
+    background-color: white;
+}
+#imgfour{
+    height: 330px;
+    width: 100%;
+}
+#textfour{
+    text-decoration: none;
+    color: darkslategrey;
+    
+}
+.star{
+    color: #ea351e;
+}
+.assbox:hover{
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+#latest{
+    color:lightslategrey;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#secondpink{
+
+    display: flex;
+    background: radial-gradient(#eae7e0, #e4c8e1);   
+
+    width: 100%;
+    height: 450px;
+
+   
+}
+#innerpink1{
+    width: 45%;
+    height: 370px;
+   
+     margin-top: 40px;
+     margin-left: 30px;
+
+
+}
+#innerpink2{
+    width: 45%;
+    height: 370px;
+   
+    margin-top: 40px;
+     margin-left: 30px;
+     padding-top: 70px;
+}
+.wthpic{
+    width: 58%;
+    padding-left: 280px;
+    
+}
+#bbdays{
+    padding-top: 65px;
+    padding-left: 295px;
+
+    width: 58%;
+    height: 400px;
+
+    opacity: 0.5;
+}
+    
+#bbdays:hover{
+    opacity: 1.0;
+}
+.mens{
+    width: 100%;
+    height: 400px;
+    background: radial-gradient(#878784, #5e5a5e);    display: flex;
+
+}
+.men1{
+    width: 45%;
+    height: 400px;
+    margin-left: 50px;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 250px;
+}
+.men2{
+    width: 45%;
+    height: 400px;
+   
+   margin-left: -247px;
+}
+#imgmen{
+    width: 55%;
+    height: 400px;
+}
+.divimg{
+    padding-left: 236px;
+    padding-top: 50px;
+}
+.brand{
+    opacity: 0.2;
+}
+.brand:hover{
+    opacity: 1;
+}
+
+.coment{
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+    
+}
+.subcmt{
+    height: 350px;
+    width: 16%;
+    margin-top: 50px;
+    margin-left: 170px;
+    padding: 20px;
+}
+.subsm1{
+background-color:#cfc1c1;
+}
+.subsm2{
+    background-color: #cfc1c1;
+}
+.subsm3{
+    background-color:  #cfc1c1;
+}
+.quote{
+    color:  #ea351e;
+    padding-left: 96px;
+}
+#quotestar{
+    text-align: center;
+}
+#custemer{
+   
+    height: 65px;
+    width: 65px;
+    padding-left: 86px;
+    padding-top: 5px;
+
+}
+.textquote{
+    color: #5e5a5e;
+}
+
+.footer{
+    width: 100%;
+    height: 215px;
+    background-color: black;
+    display: flex;
+    margin-top: 50px;
+}
+.footer1{
+    width: 25%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 88px;
+
+    
+}
+
+.footer2{
+    height: 200px;
+    width: 18%;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 6px;
+}
+.footsub3{
+    text-align: center;
+}
+
+#playstore{
+    height: 50px;
+    width: 45%px;
+}
+#appstore{
+    height: 50px;
+    width: 45%px;
+}
+.footerheading{
+    color: white;
+}
+.footerpara{
+    color: #878784;
+}
+#footerlogo{
+    height: 50px;
+    width: 45%;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.final{
+    width: 100%;
+    height: 53px;
+    background-color: black;
+    margin-top: -10px;
+    text-align: center;
+}
